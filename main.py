@@ -7,7 +7,7 @@ def readTheTestFile(file_name: str):
   imageCache.img_func()
   with open(file_name) as file:
     for line in file:
-        print(line)  `
+        print(line)
 
 def aFunction() -> str:
   print("running a function")
